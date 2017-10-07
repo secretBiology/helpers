@@ -9,14 +9,14 @@ This project is currently in development phase. To get beta functions, use follo
 Following are the specifications related to compilations 
 
      compileSdkVersion 26
-     buildToolsVersion "25.4.0"
+     buildToolsVersion "26.0.2"
      minSdkVersion 15
      targetSdkVersion 26
 
 ### External libraries used
 
-(1) com.google.code.gson:gson:2.8.1</br>
-(2) com.android.support:design:25.4.0 </br>
+(1) com.google.code.gson:gson:2.8.2</br>
+(2) com.android.support:design:26.1.0</br>
 
 ### Currently supported functions
 
@@ -31,10 +31,11 @@ Following are the specifications related to compilations
 (1) SQLight Database Functions and Query Builder</br>
 (2) InputView, InputAutoCompleteView, InputMultiAutoCompleteView </br>
 (3) AES Encryption with SHA1PRNG (added new EncryptorHelper or General.encrypt() functions)
+(4) getColor() function.
 
 ### Use for Gradle
 
-     compile 'com.secretbiology.helpers:general:1.1.3'
+     compile 'com.secretbiology.helpers:general:1.1.4'
 
 
 ### For Maven
@@ -42,6 +43,6 @@ Following are the specifications related to compilations
      <dependency> 
      <groupId>com.secretbiology.helpers</groupId> 
      <artifactId>general</artifactId> 
-     <version>1.1.3</version> 
+     <version>1.1.4</version> 
      <type>pom</type> 
      </dependency>
