@@ -3,6 +3,10 @@
 # helpers
 helper classes for all secret biology projects
 
+
+**NOTE: Java version of this repository will no longer get any updates.**
+
+
 This project is currently in development phase. To get beta functions, use following.
 
 ### Specifications
